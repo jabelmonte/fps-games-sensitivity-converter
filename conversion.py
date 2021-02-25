@@ -1,11 +1,11 @@
 class Conversion:
 
 
-    def csgo_to_valorant(self, csgo_sensitivity):
-        final_sensitivity = csgo_sensitivity/3.18
+    def csgo_to_valorant(self, current_sensitivity):
+        final_sensitivity = current_sensitivity/3.18
         return final_sensitivity
 
-    def valorant_to_csgo(self, valorant_sensitivity):
-        final_sensitivity = valorant_sensitivity * 3.18
+    def valorant_to_csgo(self, current_sensitivity):
+        final_sensitivity = current_sensitivity * 3.18
         return final_sensitivity
         
